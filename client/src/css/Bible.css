@@ -1,0 +1,72 @@
+.header {
+    display: inline-block;
+    margin: 4.5% 7%;
+}
+
+.text-box {
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 85%;
+    height: 80%;
+    overflow: auto;
+}
+
+.text-box::-webkit-scrollbar {
+    width: 2.5px;
+}
+
+.text-box::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5%;
+}
+
+.text-box::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 30px; 
+}
+
+.text-box::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 30px;
+}
+
+.text-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-box p {
+    display: inline;
+    margin-right: 0px; 
+}
+
+.text-box p:hover {
+    cursor: pointer;
+    color: rgba(168, 235, 18, 1.0);
+}
+
+/* Book Popup */
+.book-popup {
+    position: absolute;
+    text-align: center;
+    background-color: transparent;
+    width: 100%;
+
+    transform: translateY(-12.75%);
+}
+
+/* Chapter Popup */
+.chapter-popup {
+    position: absolute;
+    text-align: center;
+    background-color: greenyellow;
+    width: 100%;
+
+    transform: translateY(-12.75%);
+}

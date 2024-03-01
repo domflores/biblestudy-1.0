@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins&display=swap');
+
+.form-box {
+    /*size*/
+    width: 400px;
+    min-width: 400px;
+
+    /*Background and Border*/
+    background-color: rgba(0, 0, 0, .05);
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(0, 0, 0, .01);
+    border-radius: 8px;
+
+    /*Positioning*/
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 15%;
+    animation: fadeIn 3s;
+}
+
+.title {
+    text-align: center;
+    margin: 15px;
+
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-box .input-box {
+    width: 350px;
+    height: 40px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.form-box .input-box input {
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+    border: none;
+
+    color: white;
+    font-size: 16px;
+    outline: none;
+
+    padding-left: 10px;
+}
+
+.form-box .input-box input::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+.form-box .btn {
+    text-align: center;
+}
+
+.form-box .btn button {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    backdrop-filter: blur;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 2px;
+    padding: 5px 20px;
+
+    /*Text*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.form-box .btn button:hover {
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur;
+    border: 2px solid rgba(255, 255, 255, .5);
+}
+
+.form-box .Login-link {
+    text-align: center;
+    margin-bottom: 12px;
+    
+    /*text*/  
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form-box .Login-link a {
+    color: yellowgreen;
+}
+
+.form-box .Login-link a:hover {
+    color: turquoise;
+    cursor: pointer;
+}
+
+img {
+    /*Positioning*/
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 15%;
+    animation: fadeIn 3s;
+}
+
+/* Extra animations */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

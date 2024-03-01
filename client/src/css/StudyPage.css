@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrap {
+display: flex;
+padding-top: 3%;
+}
+
+.bible-wrap {
+display: inline;
+position: absolute;
+background-color: rgba(0, 0, 0, .25);
+border-radius: 16px;
+width: 40%;
+left: 7.5%;
+min-height: 80%;
+animation: fadeIn 3s;
+}
+
+.notes-wrap {
+position: absolute;
+background-color: rgba(0, 0, 0, .25);
+border-radius: 16px;
+width: 40%;
+right: 7.5%;
+min-height: 80%;
+animation: fadeIn 3s;
+}
+
+/* Extra animations */
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}

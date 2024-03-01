@@ -1,0 +1,93 @@
+.note-area {
+    background-color: transparent;
+}
+
+.note-box p {
+    margin: 0;
+}
+
+.note-input {
+    background-color: rgba(0, 0, 0, .25);
+    margin: 0 0 0px 0;
+    height: 120px;
+    width: 94.5%;
+    padding: 1em;
+    overflow-y: auto;
+    display: flex;
+    justify-content: left;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    outline: none;
+    font-size: 16px;
+    resize: none;
+}
+
+.note-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.note-btn {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Poppins', sans-serif;
+    --button-size: calc(var(--nav-size) * 1.5);
+    width: var(--button-size);
+    background-color: var(--bg-accent);
+    border: var(--border);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 3px 7.5px 16px 0;
+}
+
+.note-btn:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.note-header-default {
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    margin: 7%;
+}
+
+.note-box::-webkit-scrollbar {
+    width: 2.5px;
+    height: 2.5px;
+}
+
+.note-box::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5%;
+}
+
+.note-box::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.note-box::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
+
+.note-input::-webkit-scrollbar {
+    width: 2.5px;
+    height: 3.5px;
+}
+
+.note-input::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5%;
+}
+
+.note-input::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.note-input::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
